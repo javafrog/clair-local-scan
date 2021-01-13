@@ -1,6 +1,4 @@
-ARG  VERSION=latest
-
-FROM quay.io/coreos/clair:${VERSION}
+FROM quay.io/coreos/clair:latest
 
 COPY config.yaml /config/config.yaml
 

@@ -1,4 +1,4 @@
-FROM quay.io/coreos/clair:latest
+FROM clair:latest
 
 COPY config.yaml /config/config.yaml
 
